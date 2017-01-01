@@ -9,6 +9,10 @@ You can run it at https://mks-request-header-parser-api.herokuapp.com/
 
   `npm install express --save`
 
+## User Story
+
+* I can get the IP address, language and operating system for my browser.
+
 ##Usage
 
 https://mks-request-header-parser-api.herokuapp.com/
