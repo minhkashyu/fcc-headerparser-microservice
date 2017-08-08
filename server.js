@@ -13,4 +13,9 @@ app.get('/', function (req, res) {
     });
 });
 
-app.listen(port);
+app.listen(port, function(err) {
+    if (err) {
+        return console.error(err);
+    }
+    console.log('The server is listening on ' + port + '...');
+});
